@@ -18,3 +18,11 @@ img {
 .right-side {
     margin: 15px;
 }
+
+#create-account {
+    background-color: #596D48;
+    color: whitesmoke;
+    border-radius: 5px;
+    width: 200px;
+    height: 45px;
+}
