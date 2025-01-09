@@ -3,6 +3,10 @@
     src: url(Norse-Bold.otf);
 }
 
+body {
+    margin: 0px;
+}
+
 h1 {
     font-family: norse-bold, Georgia, 'Times New Roman', Times, serif
 }
@@ -17,6 +21,30 @@ img {
 
 .right-side {
     margin: 15px;
+}
+
+input {
+    /* margin-top: 8px; */
+    margin-right: 16px;
+}
+
+/* .form-lines {
+    display: flex;
+} */
+
+/* input {
+    display: flex;
+    flex-direction: row;
+} */
+
+.input-pair {
+    display: flex;
+    flex-direction: column;
+}
+
+.pair-containers {
+    display: flex;
+    flex-direction: row;
 }
 
 #create-account {
