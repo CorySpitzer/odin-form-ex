@@ -1,0 +1,8 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf);
+}
+
+h1 {
+    font-family: norse-bold, Georgia, 'Times New Roman', Times, serif
+}
