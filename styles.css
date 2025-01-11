@@ -60,12 +60,20 @@ img {
     text-align: center;
     left: 0;
     top: 27%;
+    display: flex;
+    justify-content: center;
 }
 
 #image-header {
     color: white;
     font-size: 100px;
     margin: 10px;
+}
+
+#odin-head {
+    height: 105px;
+    padding-top: 12px;
+
 }
 
 .container {
