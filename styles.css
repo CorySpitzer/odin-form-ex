@@ -114,6 +114,19 @@ input {
     margin-right: 16px;
 }
 
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+#password, #confirm-password {
+/* #password:invalid, #confirm-password:invalid { */
+    outline: none !important;
+    border-color: red;
+    box-shadow: 0 0 10px red;
+}
+
 .input-pair {
     display: flex;
     flex-direction: column;
