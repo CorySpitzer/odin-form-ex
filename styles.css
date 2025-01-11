@@ -3,17 +3,41 @@
     src: url(Norse-Bold.otf);
 }
 
-/* html { 
-    min-height: 100% 
-} */
+:root {
+    --padding-length: 30px;
+}
 
 body {
     margin: 0px;
+    background-color: whitesmoke;
     /* min-height: 100% */
 }
 
-h1 {
-    font-family: norse-bold, Georgia, 'Times New Roman', Times, serif
+form {
+    background-color: white;
+    /* box-shadow: ; */
+    padding-left: var(--padding-length);
+}
+
+#have-account {
+    padding-left: var(--padding-length);
+}
+
+#create-account {
+    margin-left: var(--padding-length);
+    margin-top: 18px;
+}
+
+.right-side {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1, #top-p {
+    font-family: norse-bold, Georgia, 'Times New Roman', Times, serif;
+    margin-left: var(--padding-length);
 }
 
 img {
@@ -55,23 +79,10 @@ img {
     color: white;
 }
 
-.right-side {
-    margin: 15px;
-}
-
 input {
     /* margin-top: 8px; */
     margin-right: 16px;
 }
-
-/* .form-lines {
-    display: flex;
-} */
-
-/* input {
-    display: flex;
-    flex-direction: row;
-} */
 
 .input-pair {
     display: flex;
@@ -81,6 +92,10 @@ input {
 .pair-containers {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 4px;
 }
 
 #create-account {
