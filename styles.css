@@ -3,8 +3,13 @@
     src: url(Norse-Bold.otf);
 }
 
+/* html { 
+    min-height: 100% 
+} */
+
 body {
     margin: 0px;
+    /* min-height: 100% */
 }
 
 h1 {
@@ -17,14 +22,37 @@ img {
     object-fit: contain;
 }
 
-/* .image-container {
-    max-width: 25%;
-    max-height: 500px;
-    overflow: hidden;
-} */
-
 .container {
+    min-height: 100%;
     display: flex;
+}
+
+.image-container {
+    position: relative;
+    width: max-content;
+}
+
+#fern {
+    /* z-index: -1; */
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.credit {
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    bottom: 15px;
+    /* left: 15px; */
+    /* z-index: 1; */
+}
+
+.credit a {
+    color: white;
 }
 
 .right-side {
